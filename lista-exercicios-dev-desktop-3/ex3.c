@@ -23,5 +23,5 @@ int main () {
         num2 = num1;
         num1 = safeNum2;
     }
-    printf("%d %d %d", num1, num2, num3);
+    printf("Esta e a ordem crescente dos numero inserido: %d %d %d", num1, num2, num3);
 }

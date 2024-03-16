@@ -8,7 +8,7 @@ int main () {
     printf("Insira um numero:\n");
     scanf("%d", &num);
 
-    if (num % 2 == 0) {
+    if (num % 2 == 1) {
         num = num / 2;
         printf("Esta e a metade do numero inserido: %d\n", num);
     } else {

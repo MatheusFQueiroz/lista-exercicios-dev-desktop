@@ -7,7 +7,8 @@ int main () {
     int eleitoresAptos, candidatoVotos;
 
     printf("Insira o nome do municipio, a quantidade de eleitores aptos e a quantidade de votos do candidato mais votado: (ex: Cascavel 300 100)\n");
-    scanf("%s %d %d", &municipio, &eleitoresAptos, &candidatoVotos);
+    gets(municipio);
+    scanf("%d %d", &eleitoresAptos, &candidatoVotos);
 
     if (eleitoresAptos >= 20000 && candidatoVotos <= (eleitoresAptos / 2)) {
         printf("As eleicoes terao segundo turno\n");

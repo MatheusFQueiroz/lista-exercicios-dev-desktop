@@ -4,11 +4,13 @@
 #include <ctype.h>
 
 int main () {
-    char nome[20], sexo;
+    char nome[40], sexo;
     int idade;
 
     printf("Insira seu nome, sexo e idade: (ex: Matheus M 19)\n");
-    scanf("%s %c %d", &nome, &sexo, &idade);
+    gets(nome);
+    scanf("%c", &sexo);
+    scanf("%d", &idade);
 
     if (tolower(sexo) == 'f' && idade < 25) {
         printf("%s: Aceita\n", nome);
