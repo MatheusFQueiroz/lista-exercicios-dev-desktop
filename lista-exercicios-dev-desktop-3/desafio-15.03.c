@@ -24,8 +24,8 @@ int main () {
 
     if (calcLuaCheia > 31) {
         int dataPascoa = calcLuaCheia - 31;
-        printf("A Pascoa sera no dia %d de abril de %d",  dataPascoa, ano);
+        printf("%d de abril de %d",  dataPascoa, ano);
     } else {
-        printf("A pascoa sera no dia %d de marco de %d", calcLuaCheia, ano);
+        printf("%d de marco de %d", calcLuaCheia, ano);
     }
 }
