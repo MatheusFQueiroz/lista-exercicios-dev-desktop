@@ -16,6 +16,7 @@ int main () {
             break;
         case 5:
             printf("Esta figura e um pentagono\n");
+            break;
         case 6:
             printf("Esta figura e um hexagono\n");
             break;
