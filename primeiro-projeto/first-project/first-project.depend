@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1714177841 source:c:\users\mf588\lista-exercicios-c\lista-exercicios-dev-desktop\primeiro-projeto\first-project\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ex1.h"
+	"menu.h"
+
+1714177877 c:\users\mf588\lista-exercicios-c\lista-exercicios-dev-desktop\primeiro-projeto\first-project\ex1.h
+
+1714177974 c:\users\mf588\lista-exercicios-c\lista-exercicios-dev-desktop\primeiro-projeto\first-project\menu.h
+
