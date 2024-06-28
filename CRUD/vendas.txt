@@ -1,0 +1,6 @@
+ID Venda: 1, ID Cliente: 1, Data: 22/10/1234
+Itens da venda:
+	Produto: Gasolina comum, Valor Unitario: 5.00, Quantidade: 10.00
+	Produto: Coca-cola lata, Valor Unitario: 6.00, Quantidade: 2.00
+Total da venda: 62.00
+
